@@ -1,0 +1,139 @@
+.navbar {
+  display: flex;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  background-color: #3f3f46;
+}
+
+.navbar__title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.navbar__list {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navbar__link {
+  text-decoration: none;
+  background-color: #6366f1;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #ffffff;
+}
+.navbar__link:visited {
+  text-decoration: none;
+  color: white;
+}
+.navbar__link:hover {
+  opacity: 0.6;
+}
+
+.navbar__link_main {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar__list {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navbar__link {
+    text-decoration: none;
+    background-color: #6366f1;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #ffffff;
+  }
+  .navbar__link:visited {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar__link:hover {
+    opacity: 0.6;
+  }
+
+  .navbar__link_main {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navbar {
+    display: flex;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    background-color: #3f3f46;
+  }
+
+  .navbar__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+  }
+
+  .navbar__list {
+    display: flex;
+    column-gap: 0.5rem;
+    list-style: none;
+  }
+
+  .navbar__link {
+    text-decoration: none;
+    background-color: #6366f1;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #ffffff;
+  }
+  .navbar__link:visited {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar__link:hover {
+    opacity: 0.6;
+  }
+
+  .navbar__link_main {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+  }
+}

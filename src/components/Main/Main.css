@@ -1,0 +1,41 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  max-width: 50rem;
+}
+.principal__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 6.25rem;
+  text-align: center;
+  color: #ffffff;
+}
+.principal__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #ffffff;
+}
+.principal__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.principal__subtitle--bold {
+  font-style: bold;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  text-align: center;
+  color: #ffffff;
+}
