@@ -19,6 +19,7 @@ function TaskForm() {
         setValue("title", task.title);
         setValue("description", task.description);
         setValue("date", dayjs(task.date).utc().format("YYYY-MM-DD"));
+        setValue("priority", task.priority);
       });
     }
   }
@@ -65,6 +66,14 @@ function TaskForm() {
         ></textarea>
         <label htmlFor="date">Date</label>
         <input type="date" {...register("date")} className="form__input" />
+        <label className="task-card__label">Prioridad</label>
+      <select className="form__input" type="number" {...register("priority")}>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
         <button className="form__button">
           <p className="form__button-text">{params.id ? "Editar" : "Crear"}</p>
         </button>

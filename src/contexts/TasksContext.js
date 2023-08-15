@@ -28,7 +28,8 @@ export function TasksProvider({ children }) {
 
   const getTasks = () => {
     getTasksRequest().then((res) => {
-      setTareas(res);
+      const sortedTasks = [...res].sort((a, b) => a.priority - b.priority);
+      setTareas(sortedTasks);
     });
   };
   const deleteTasks = (id) => {

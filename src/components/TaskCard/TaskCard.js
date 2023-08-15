@@ -15,6 +15,7 @@ function TaskCard({ task }) {
       <p className="task-card__date">
         {dayjs.utc(task.date).format("DD/MM/YYYY")}
       </p>
+      <p className="task-card__priority">Prioridad: {task.priority}</p>
       <div className="task-card__buttons">
         <button
           className="task-card__button"
