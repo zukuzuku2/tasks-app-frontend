@@ -1,4 +1,4 @@
-const URI = "http://192.168.1.81:3000/api";
+const URI = "https://api.jose.desarrollointerno.com/api";
 
 export const requestRegister = (user) => {
   return fetch(URI + "/register", {

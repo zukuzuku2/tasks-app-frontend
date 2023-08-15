@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Proyecto creado con Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts disponibles
 
-In the project directory, you can run:
+En el directorio del proyecto, puede ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ejecuta la aplicación en el modo de desarrollo. [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+La página se volverá a cargar cuando realice cambios. \
+También puede ver cualquier error de lint en la consola.
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Construye la aplicación para la producción al `build` folder.\
+Se reacciona correctamente en modo de producción y optimiza la compilación para el mejor rendimiento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La construcción se minifica y los nombres de archivo incluyen los hash. \
+¡Su aplicación está lista para ser implementada!
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+** Nota: Esta es una operación unidireccional.Una vez tú `eject`, ¡No puedes volver! **
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si no está satisfecho con la herramienta de compilación y las opciones de configuración, puede `eject` en cualquier momento.Este comando eliminará la dependencia de la compilación única de su proyecto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+En su lugar, copiará todos los archivos de configuración y las dependencias transitivas (Webpack, Babel, Eslint, etc.) directamente en su proyecto para que tenga el control total sobre ellas.Todos los comandos excepto `eject` Todavía funcionará, pero señalarán los scripts copiados para que pueda ajustarlos.En este punto, estás solo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+No tienes que usar nunca `eject`. El conjunto de características curadas es adecuada para implementaciones pequeñas y medias, y no debe sentirse obligado a usar esta función.Sin embargo, entendemos que esta herramienta no sería útil si no pudiera personalizarla cuando esté listo para ello.
 
-## Learn More
+# Gestor de Tareas
+## ¡Bienvenido a nuestra plataforma de gestión de tareas! Aquí, en un solo lugar, puedes tomar el control total de tus actividades diarias, proyectos personales y tareas pendientes. Nuestra página principal te ofrece una experiencia perfectamente diseñada para optimizar tu productividad y mantenerte organizado.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### En la página principal de nuestro proyecto HTML de creación y gestión de tareas, encontrarás:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 1. Interfaz Intuitiva: Nuestra interfaz de usuario limpia y moderna hace que sea fácil para cualquier persona empezar a utilizar la plataforma de inmediato. No importa si eres un novato en tecnología o un experto en la gestión de tareas; nuestra interfaz está diseñada para ser intuitiva y amigable.
+#### 2. Listas de Tareas Personalizadas: Crea y organiza tus tareas en listas personalizadas. Ya sea que necesites administrar tus tareas laborales, proyectos escolares o tareas domésticas, nuestras listas flexibles se adaptan a tus necesidades únicas.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### ¡Empieza a tomar el control de tu tiempo y a maximizar tu eficiencia con nuestra plataforma de gestión de tareas! Nunca ha sido tan fácil mantenerse organizado y lograr tus objetivos.
